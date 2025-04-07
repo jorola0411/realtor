@@ -28,7 +28,7 @@ export default function About() {
             </div>
             </div>
 
-            <div className="bg-cyan-700 flex gap-[200px] justify-center h-[300px] items-center">
+            <div className="bg-[#197278] flex gap-[200px] justify-center h-[300px] items-center">
                 <div className="text-center">
                     <p className="text-2xl text-gray-400">Developments</p>
                     <p className="text-7xl font-semibold text-white">120+</p>
