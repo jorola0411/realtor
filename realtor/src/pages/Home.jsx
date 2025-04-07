@@ -1,10 +1,18 @@
-import {Link} from "react-router"
-export default function Home(){
-    return(
-        <>
-        <h1 className="text-5xl">HIIIII</h1>
-        <button><Link to="blog">BLOG</Link></button>
-        <button><Link to="map">MAP</Link></button>
-        </>
-    )
-}
+import Header from '../components/Header.jsx'; 
+import HeroSection from '../components/Homie/Hero.jsx';
+import Discovery from '../components/Homie/Discovery.jsx';
+
+
+
+export default function Home() {
+    return (
+      <>
+      <Header />
+      
+          <HeroSection />
+          <Discovery />
+        
+      </>
+    );
+  }
+  
