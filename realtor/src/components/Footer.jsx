@@ -4,13 +4,13 @@ import logowhite from '../assets/logowhite.png';
 export default function Footer() {
   return (
     <footer className="bg-[#732F26] text-white px-8 py-12 md:px-16">
-      <div className="max-w-7xl mx-auto space-y-10">
+      <div className="container mx-auto space-y-10">
         {/* Top Section */}
         <div>
           <p className="text-sm uppercase tracking-wide text-gray-300">
             Interested in learning more?
           </p>
-          <div className="flex items-center gap-3 mt-2">
+          <div className="flex items-center gap-3 my-8">
             <h2 className="text-4xl md:text-5xl font-semibold">Connect With Us</h2>
             <ArrowRight size={32} />
           </div>
