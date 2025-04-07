@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react';
+import logowhite from '../assets/logowhite.png';
 
 export default function Footer() {
   return (
@@ -21,7 +22,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-12">
           {/* Logo and Description */}
           <div className="max-w-md space-y-4">
-            <div className="text-2xl font-bold tracking-wide">FORMA</div>
+            {/* Replace FORMA text with logo */}
+            <img src={logowhite} alt="Forma Logo" className="w-60 ml-[-14px]" />
             <p className="text-sm text-gray-300">
               At Forma, we believe great spaces begin with intention. Every project is thoughtfully crafted to balance modern aesthetics with environmental responsibility, creating homes that are as efficient as they are beautiful. Built to elevate life. We focus on fostering connected, vibrant communities — places where people feel grounded, inspired, and truly at home.
             </p>
