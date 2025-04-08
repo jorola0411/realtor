@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+
 
 import newsDataJson from '../data/newsData.json'; // Import the JSON file
 import new1 from '../assets/new1.png';
@@ -25,7 +24,7 @@ const NewsDetails = () => {
     return (
         <>
 
-            <Header />
+     
 
             <div className="container mx-auto bg-white py-8">
                 <div className="flex md:flex-row items-start justify-between gap-20">
@@ -70,8 +69,6 @@ const NewsDetails = () => {
 
             </div>
 
-
-            <Footer />
         </>
     );
 };

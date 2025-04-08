@@ -1,10 +1,9 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+
 
 export default function About() {
     return (
         <div > 
-            <Header />
+       
             <div className="mx-15">
             <h1 className="text-[74px] w-[1000px] mx-15 my-20">We believe in making better landscapes, cityscapes, and buildings for all people.</h1>
             <img src="../src/assets/about1.jpg" alt="About Us" />
@@ -82,7 +81,7 @@ export default function About() {
                 </div>
             </div>
             </div>
-            <Footer />
+      
         </div>
     );
 }

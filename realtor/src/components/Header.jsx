@@ -10,7 +10,7 @@ function Header() {
         </Link>
       </div>
       <nav className="flex space-x-6">
-        <Link to="/" className="hover:underline">Portfolio</Link>
+        <Link to="/map" className="hover:underline">Portfolio</Link>
         <Link to="/about" className="hover:underline">About</Link>
         <Link to="/contact" className="hover:underline">Contact</Link>
       </nav>
