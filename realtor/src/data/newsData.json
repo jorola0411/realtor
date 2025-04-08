@@ -1,21 +1,44 @@
 [
-    {
-      "image": "new1",
-      "date": "March 15, 2025",
-      "title": "A Place That Breathes With You",
-      "description": "Somewhere between the hustle of leaves and the laughter of kids on bikes, there’s a neighborhood that feels like it’s always been there — waiting for you. We built this neighborhood with care — not just for the planet, but for the people who call it home."
-    },
-    {
-      "image": "new2",
-      "date": "March 2, 2025",
-      "title": "Eco-Friendly Living Reimagined",
-      "description": "Sustainability isn’t just a trend — it’s the future of living. Our newest real estate development blends cutting-edge design with conscious choices, offering homes that are as kind to the planet as they are beautiful."
-    },
-    {
-      "image": "new3",
-      "date": "Feb 21, 2025",
-      "title": "Not Just a Building – A Statement",
-      "description": "Say hello to The Mural, where bold patterns meet bold living. This isn’t your standard condo. It’s a geometric daydream — wrapped in lines, rhythm, and texture that turns every glance into a second look."
-    }
-  ]
-  
+  {
+    "id": "1",
+    "image": "new1",
+    "date": "March 15, 2025",
+    "title": "Passive House Design: Leading Vancouver’s Green Building Movement",
+    "description": "Energy efficiency is no longer a luxury—it’s a necessity. Learn how FORMA is incorporating Passive House design principles into new developments, reducing energy consumption by up to 90% while enhancing comfort and sustainability for Vancouver homeowners.",
+    "category": "Sustainable Development",
+    "h1": "Building for the Future",
+    "p1": "As Vancouver continues its journey toward becoming one of the world’s greenest cities, energy-efficient building practices are no longer optional—they’re essential. One of the most effective and forward-thinking approaches to sustainable architecture is Passive House design, a standard that drastically reduces energy consumption while improving comfort and air quality. At Forma, we are committed to pushing the boundaries of green development, and our latest projects embrace Passive House principles to set a new standard for urban living.",
+    "h2": "Why It Matters for Vancouver’s Future",
+    "p2": "Passive House (or Passivhaus, as it originated in Germany) is a rigorous building standard that prioritizes energy efficiency, airtight construction, superior insulation, and heat recovery ventilation to create homes that require little to no active heating or cooling. These buildings consume up to 90% less energy than traditional structures while maintaining a consistent and comfortable indoor climate year-round.",
+    "h3": "Leading the Charge in Sustainable Development",
+    "p3": "At Forma, sustainability is at the heart of everything we do. Our latest projects, The Arbor, incorporate Passive House standards to deliver homes and commercial spaces that are not only future-proof but also comfortable and affordable. As Vancouver’s development landscape evolves, we’re committed to staying ahead of the curve, building homes that are aligned with the city’s green vision. Want to learn more? Contact us today to discover how our energy-efficient developments are shaping the future of urban living."
+  },
+  {
+    "id": "2",
+    "image": "new2",
+    "date": "March 2, 2025",
+    "title": "Eco-Friendly Living Reimagined",
+    "description": "Sustainability isn’t just a trend — it’s the future of living. Our newest real estate development blends cutting-edge design with conscious choices, offering homes that are as kind to the planet as they are beautiful.",
+    "category": "Eco-Friendly Living",
+    "h1": "A New Era of Sustainable Design",
+    "p1": "In a world where every choice matters, sustainability is no longer a luxury—it’s a lifestyle. At the heart of our newest development lies a bold vision: to blend aesthetic excellence with environmental responsibility. These homes aren’t just built for today; they’re crafted for a greener tomorrow.",
+    "h2": "Design With a Conscience",
+    "p2": "Gone are the days when sustainable living meant compromising on comfort or style. Our latest project proves that eco-conscious architecture can be as elegant as it is efficient. From solar-ready rooftops to energy-smart appliances, every detail is designed to reduce environmental impact without sacrificing sophistication.",
+    "h3": "Living Lightly, Living Well",
+    "p3": "Imagine a home that works with nature—not against it. Our community features green rooftops, passive heating strategies, and locally sourced materials that keep your carbon footprint low and your peace of mind high. It’s more than a place to live—it’s a statement about the future you believe in."
+  },
+  {
+    "id": "3",
+    "image": "new3",
+    "date": "Feb 21, 2025",
+    "title": "Not Just a Building – A Statement",
+    "description": "Say hello to The Mural, where bold patterns meet bold living. This isn’t your standard condo. It’s a geometric daydream — wrapped in lines, rhythm, and texture that turns every glance into a second look.",
+    "category": "Artistic Architecture",
+    "h1": "Where Art Meets Architecture",
+    "p1": "Welcome to The Mural — a striking blend of structure and self-expression. This isn't just a place to live; it's an experience. Wrapped in bold geometry and dynamic textures, The Mural captures attention the moment you lay eyes on it. It’s architecture that refuses to whisper.",
+    "h2": "Design That Dares",
+    "p2": "Every inch of The Mural was designed to spark curiosity. Think clean lines layered with rhythmic patterns, unexpected angles, and a façade that feels like modern art in motion. It’s not about fitting in — it’s about standing out. A home here isn’t just four walls; it’s a conversation piece.",
+    "h3": "Live Inside the Vision",
+    "p3": "Step inside, and the story continues. Interiors reflect the same energy as the exterior: intentional, modern, and full of personality. From custom finishes to thoughtfully designed community spaces, The Mural invites you to live boldly, creatively, and unapologetically."
+  }
+]
