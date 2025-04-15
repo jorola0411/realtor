@@ -15,7 +15,7 @@ const HeroSection = () => {
       </div>
 
       {/* White content block */}
-      <div className="bg-white container mx-auto flex flex-col items-start justify-center my-10 md:my-20 px-4 sm:px-8">
+      <div className="container mx-auto flex flex-col items-start justify-center my-10 md:my-20 px-4 sm:px-8">
         <div className="max-w-full sm:max-w-[700px]">
           <p className="text-lg sm:text-xl md:text-2xl mb-6">
             We’re thrilled to announce the addition of several green spaces throughout the ALA Residencies community! These carefully designed outdoor areas offer residents with walking paths and community gardens.

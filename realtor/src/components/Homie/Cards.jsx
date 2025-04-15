@@ -25,7 +25,7 @@ const Cards = () => {
   };
 
   return (
-    <div className="container mx-auto bg-white py-8 my-20">
+    <div className="container mx-auto py-8 my-20">
       <h2 className="text-[40px] font-bold mb-4 p-4 text-center">NEWS</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {newsData.map((news) => (
