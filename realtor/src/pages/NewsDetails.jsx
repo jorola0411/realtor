@@ -1,10 +1,12 @@
-import React from 'react';
+import {useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 
 import newsDataJson from '../data/newsData.json'; // Import the JSON file
 import new1 from '../assets/new1.png';
 import new2 from '../assets/new2.png';
 import new3 from '../assets/news3.png';
+
+
 
 const images = {
   new1,
@@ -15,6 +17,10 @@ const images = {
 const NewsDetails = () => {
   const { id } = useParams(); // Get the id from the route parameter
   const news = newsDataJson.find((item) => item.id === id); // Find the news by id
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!news) {
     return <div>News article not found.</div>;
