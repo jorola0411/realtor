@@ -39,7 +39,7 @@ function Header() {
       <nav
         className={`${
           isMenuOpen ? "block" : "hidden"
-        } absolute top-16 left-0 w-full h-56 bg-white shadow-md flex flex-col items-center space-y-4 py-4 md:hidden flex flex-col justify-evenly items-end px-8`}
+        } absolute top-16 left-0 w-full h-56 bg-white shadow-md  space-y-4 py-4 md:hidden flex flex-col justify-evenly items-end px-8`}
       >
         <Link to="/map" className="hover:underline" onClick={() => setIsMenuOpen(false)}>Portfolio</Link>
         <Link to="/about" className="hover:underline" onClick={() => setIsMenuOpen(false)}>About</Link>
