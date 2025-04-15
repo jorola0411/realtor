@@ -7,7 +7,7 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
   return (
-    <header className="w-full flex justify-between items-center px-8 py-4 text-lg uppercase bg-white">
+    <header className="w-full flex justify-between items-center px-8 py-4 text-lg uppercase ">
 
       <div className="flex items-center">
         <Link to="/">

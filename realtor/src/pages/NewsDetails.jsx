@@ -27,7 +27,7 @@ const NewsDetails = () => {
   }
 
   return (
-    <div className="container mx-auto bg-white py-8 px-4 sm:px-8">
+    <div className="container mx-auto py-8 px-4 sm:px-8">
       {/* Responsive Flex Layout */}
       <div className="flex flex-col md:flex-row items-start justify-between gap-8">
         {/* First Column */}
