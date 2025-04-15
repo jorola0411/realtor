@@ -17,7 +17,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="map" element={<Map />} />
-        <Route path="news/:id" element={<NewsDetails />} /> {/* Dynamic route for NewsDetails */}
+        <Route path="news/:id" element={<NewsDetails />} /> 
       </Routes>
          <Footer />
     </>

@@ -13,15 +13,15 @@ const images = {
 
 const Cards = () => {
   const [newsData, setNewsData] = useState([]);
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   useEffect(() => {
-    // Directly set the imported JSON data to the state
+    
     setNewsData(newsDataJson);
   }, []);
 
   const handleViewDetails = (id) => {
-    navigate(`/news/${id}`); // Navigate to details page with the id
+    navigate(`/news/${id}`);
   };
 
   return (
@@ -31,7 +31,7 @@ const Cards = () => {
         {newsData.map((news) => (
           <div key={news.id} className="flex flex-col items-start justify-start p-4">
             <img
-              src={images[news.image]} // Map image key to imported images
+              src={images[news.image]}
               alt={news.title}
               className="w-full h-[350px] object-cover mb-2 py-4"
             />
@@ -42,7 +42,7 @@ const Cards = () => {
                 <p className="text-gray-700 my-2 line-clamp-3">{news.description}</p> 
               </div>
               <button
-                onClick={() => handleViewDetails(news.id)} // Pass the id to the handler
+                onClick={() => handleViewDetails(news.id)} 
                 className="border border-gray-300 py-2 px-4 hover:bg-gray-100 transition duration-300"
               >
                 View →

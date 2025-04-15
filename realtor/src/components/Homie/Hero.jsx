@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../../assets/formahome.png'; // Make sure this path is correct
+import Banner from '../../assets/formahome.png'; 
 
 const HeroSection = () => {
   return (
