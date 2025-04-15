@@ -59,7 +59,7 @@ export default function Map() {
       </div>
 
       <div className="h-[500px] w-full rounded overflow-hidden shadow-md">
-        <MapContainer center={[49.25, -123]} zoom={14} scrollWheelZoom={true} className="h-full w-full z-0">
+        <MapContainer center={[49.25, -123]} zoom={14} scrollWheelZoom={false} className="h-full w-full z-0">
           <TileLayer
             attribution='&copy; OpenStreetMap'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

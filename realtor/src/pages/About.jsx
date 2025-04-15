@@ -56,29 +56,29 @@ export default function About() {
             <div className="sm:mx-7 sm:my-10 md:mx-15 md:my-20">
                 <div className="flex flex-col md:flex-row justify-start md:gap-20 mt-10">
                     <div className="flex flex-col md:w-[650px] mb-10 md:mb-0">
-                        <img src="../src/assets/about2.jpg" alt="About Us" className="mb-5" />
+                        <img src="../src/assets/about2.jpg" alt="Numa Property Image" className="mb-5" />
                         <p className="text-2xl md:text-4xl font-semibold">NUMA</p>
                         <p className="text-lg md:text-2xl">Vancouver, BC</p>
                     </div>
                     <div className="flex flex-col md:w-[650px] mb-10 md:mb-0">
-                        <img src="../src/assets/about3.jpg" alt="About Us" className="mb-5" />
+                        <img src="../src/assets/about3.jpg" alt="Pinnacle Property Image" className="mb-5" />
                         <p className="text-2xl md:text-4xl font-semibold">PINNACLE WEST</p>
                         <p className="text-lg md:text-2xl">Vancouver, BC</p>
                     </div>
                     <div className="flex flex-col md:w-[294px]">
-                        <img src="../src/assets/about4.jpg" alt="About Us" className="mb-5" />
+                        <img src="../src/assets/about4.jpg" alt="Opus Property Image" className="mb-5" />
                         <p className="text-2xl md:text-4xl font-semibold">OPUS</p>
                         <p className="text-lg md:text-2xl">Vancouver, BC</p>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row justify-start gap-10 mt-10">
                     <div className="flex flex-col md:w-[294px] mb-10 md:mb-0">
-                        <img src="../src/assets/about5.jpg" alt="About Us" className="mb-5" />
+                        <img src="../src/assets/about5.jpg" alt="Lumen Property Image" className="mb-5" />
                         <p className="text-2xl md:text-4xl font-semibold">LUMEN</p>
                         <p className="text-lg md:text-2xl">Vancouver, BC</p>
                     </div>
                     <div className="flex flex-col md:w-[650px]">
-                        <img src="../src/assets/about6.jpg" alt="About Us" className="mb-5" />
+                        <img src="../src/assets/about6.jpg" alt="Forma Property Image" className="mb-5" />
                         <p className="text-2xl md:text-4xl font-semibold">FORMA HEIGHTS</p>
                         <p className="text-lg md:text-2xl">Vancouver, BC</p>
                     </div>
