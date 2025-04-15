@@ -1,9 +1,9 @@
 #root {
   margin: 0 auto;
-  padding: 2rem;
-
 }
 body {
-  background: linear-gradient(135deg, #f5f7fa, #c0d3f0);
+  background: linear-gradient(135deg, #f5f7fa, #FFFFFF);
 }
-
+p, h1, h2 {
+  font-family: "Inter", sans-serif;
+}
