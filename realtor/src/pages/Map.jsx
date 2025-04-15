@@ -26,8 +26,8 @@ export default function Map() {
     <>
     <div className='relative isolate flex flex-col justify-end overflow-hidden'>
     <img src={maphero} className='w-full'/>
-    <div class="absolute inset-0 flex items-center justify-left">
-        <h2 class="text-white text-7xl z-10 mt-150 max-w-lg">Connecting People & Places</h2>
+    <div class="absolute inset-0 flex items-center md:justify-left  px-4">
+        <h2 class="text-white sm:text-5xl md:text-7xl z-10 md:mt-150 md:max-w-lg  sm:max-w-md  sm:text-center md:text-left">Connecting People & Places</h2>
     </div>
     </div>
     <section className="p-8">
