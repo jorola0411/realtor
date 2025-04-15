@@ -53,7 +53,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="sm:mx-7 sm:my-10 md:mx-15 md:my-20">
+            <div className="sm:mx-7 mx-5 sm:my-10 md:mx-15 md:my-20">
                 <div className="flex flex-col md:flex-row justify-start md:gap-20 mt-10">
                     <div className="flex flex-col md:w-[650px] mb-10 md:mb-0">
                         <img src="../src/assets/about2.jpg" alt="Numa Property Image" className="mb-5" />
